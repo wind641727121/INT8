@@ -48,8 +48,9 @@ fnn.prob |	                    Test result
 `XTensor Myadd_int8(const XTensor &a, const XTensor &b, const XTensor &sa,int corenum)`|x与s的加法
 ---
 
-## [MKL库的安装说明(未用上)](https://blog.csdn.net/qq_39128349/article/details/104484808)
-## [部分函数的测试说明](https://blog.csdn.net/qq_39128349/article/details/104314286)
+## [MKL库的安装说明(未用上)](https://blog.csdn.net/qq_39128349/article/details/104484808)  
+## [部分函数的测试说明](https://blog.csdn.net/qq_39128349/article/details/104314286) 
+可以在`\source\Main.cpp`中的main函数里被注释的地方查看部分函数的测试
 
  如果想要直接体验INT8 将`\source\sample\fnnlm\FNNLM.CPP\void Forward(XTensor inputs[], XTensor &output, FNNModel &model, FNNNet &net)`里的注释取消 并且将自带的乘法和加法注释掉
  
